@@ -1,5 +1,5 @@
 class Rafn < Formula
-  desc "Lightweight benchmark uploader for perfscope"
+  desc "Lightweight benchmark uploader"
   homepage "https://rafn.dev"
   version "0.1.2"
   license "Apache-2.0"
