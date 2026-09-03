@@ -1,28 +1,28 @@
 class Rafn < Formula
   desc "Lightweight benchmark uploader"
   homepage "https://rafn.dev"
-  version "0.1.5"
+  version "0.1.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/voron-software/rafn/releases/download/v0.1.5/rafn-aarch64-apple-darwin.tar.gz"
-      sha256 "3b419335d0efb3fa7dae65d68339713754557aa3428c5594b71020d479a1d745"
+      url "https://github.com/voron-software/rafn/releases/download/v0.1.6/rafn-aarch64-apple-darwin.tar.gz"
+      sha256 "5a05693999221ff23cb1a353351231271dfc69cd4032d0d00a3493d5ccf46365"
     end
     on_intel do
-      url "https://github.com/voron-software/rafn/releases/download/v0.1.5/rafn-x86_64-apple-darwin.tar.gz"
-      sha256 "b823ce18629dcced51a188b0d355b3175fecf7dc61c3c23f03e28bf9e884493b"
+      url "https://github.com/voron-software/rafn/releases/download/v0.1.6/rafn-x86_64-apple-darwin.tar.gz"
+      sha256 "24b53600be109d8fc20e2af77b67aa49b6b85a3d1aca43d017018f2d74bc38b6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/voron-software/rafn/releases/download/v0.1.5/rafn-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ddde9a6d2a4ec663f5c4822d3af20287b4866dc49d6826d3e5ab6851483bc147"
+      url "https://github.com/voron-software/rafn/releases/download/v0.1.6/rafn-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "66462ef6a1ed5010cc68389850e73199f8f6ebf7db16f9f741b08954ebaa4ccf"
     end
     on_intel do
-      url "https://github.com/voron-software/rafn/releases/download/v0.1.5/rafn-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "86aaf344b6c7274fdb8641908c1c1fc43a3f2af4932700564e06b996cc2660a1"
+      url "https://github.com/voron-software/rafn/releases/download/v0.1.6/rafn-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "385e5f4f2670d49eafee07374193cdab70e39147750e1d31e13b167bcb90de0e"
     end
   end
 
